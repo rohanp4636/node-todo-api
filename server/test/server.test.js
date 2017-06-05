@@ -15,8 +15,7 @@ const todos = [{
   completed: true,
   completedAt: 333
 }
-
-]
+];
 
 beforeEach( (done) => {
   Todo.remove({}).then( () => {
